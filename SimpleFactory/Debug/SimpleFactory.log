@@ -1,8 +1,7 @@
-﻿  Factory.cpp
-  正在生成代码...
-  正在编译...
+﻿  stdafx.cpp
   SimpleFactory.cpp
   Product.cpp
+  Factory.cpp
   正在生成代码...
   SimpleFactory.vcxproj -> E:\C++\DesignMode_C++\Debug\SimpleFactory.exe
   SimpleFactory.vcxproj -> E:\C++\DesignMode_C++\Debug\SimpleFactory.pdb (Full PDB)

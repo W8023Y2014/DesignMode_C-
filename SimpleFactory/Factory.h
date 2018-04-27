@@ -2,19 +2,21 @@
 
 #include "Product.h"
 
-class Factory
+namespace SimpleFactory
 {
-public:
-    Factory();
-    ~Factory();
-
-    enum CAR_TYPE
+    class Factory
     {
-        BEN_CAR,
-        BMW_CAR,
-        AUDI_CAR
+    public:
+        Factory();
+        ~Factory();
+
+        enum CAR_TYPE
+        {
+            BEN_CAR,
+            BMW_CAR,
+            AUDI_CAR
+        };
+
+        ICar* CreateCar(CAR_TYPE TYPE);
     };
-
-    ICar* CreateCar(CAR_TYPE TYPE);
-};
-
+}

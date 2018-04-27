@@ -9,6 +9,7 @@
 #define SAFE_DELETE(p) { if(p){delete(p); (p)=NULL;} }
 #endif // !SAFE_DELETE
 
+using namespace SimpleFactory;
 
 int main()
 {

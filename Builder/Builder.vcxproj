@@ -167,6 +167,7 @@
     <ClCompile Include="ChickenBurger.cpp" />
     <ClCompile Include="Coke.cpp" />
     <ClCompile Include="ColdDrink.cpp" />
+    <ClCompile Include="IFactory.cpp" />
     <ClCompile Include="IItem.cpp" />
     <ClCompile Include="IPacking.cpp" />
     <ClCompile Include="Meal.cpp" />

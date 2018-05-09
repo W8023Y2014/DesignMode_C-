@@ -24,9 +24,24 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="PhoneFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FoxconnProxy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FoxconnProxy.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Proxy.cpp">

@@ -104,5 +104,8 @@
     <ClCompile Include="MealBuilder.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="IFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
